@@ -3,6 +3,7 @@ import TimeView from '../../components/time/TimeView'
 import Goal from '../../components/goal/Goal'
 import './viewpage.css'
 import Weather from '../../components/weather/Weather'
+import Quotes from '../../components/quotes/Quotes'
 const ViewPage = () => {
     return (
         <>
@@ -11,6 +12,7 @@ const ViewPage = () => {
                 <TimeView/>
                 <Goal/>
                 <Weather/>
+                <Quotes/>
             </div>
             </div>
         </>
