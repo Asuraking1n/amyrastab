@@ -2,8 +2,15 @@
     color: #fff;
     font-size: 8rem;
     text-align: center;
+    margin-top: 8rem;
 }
 .greet-user-cont{
     color: #fff;
     font-size: 3rem;
+}
+
+@media (max-width: 480px){
+    .time-cont{
+        margin-top: 12rem;
+    }
 }

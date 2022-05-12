@@ -1,0 +1,30 @@
+.weather-sec{
+    height: 10rem;
+    width: 22rem;
+    background-color: #0000008a;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 100px;
+    color: rgb(250, 239, 190);
+}
+.w-city{
+    font-size: 1.2rem;
+    margin-left: 4rem;
+    margin-top: .6rem;
+}
+.w-des{
+    margin-left: 4rem;
+    margin-top: 5px;
+    color: rgb(223, 221, 221);
+}
+.w-temp{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.humidity{
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
