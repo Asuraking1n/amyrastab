@@ -1,0 +1,68 @@
+.landing-page-container{
+    height: 100vh;
+    width: 100vw;
+    background: url(https://source.unsplash.com/random/?nature/1366×768) center center/cover no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #00000065;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-page-container h1{
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+}
+.landing-page-container input{
+    width: 31.25rem;
+	padding: 0.5rem 1rem;
+	margin-bottom: 3rem;
+    letter-spacing: 1px;
+	background-color: transparent;
+	outline: none;
+	border: none;
+    border-bottom: 3px solid #fff;
+	font-size: 2.5rem;
+	color: #fff;
+	text-align: center;
+}
+.landing-page-container button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 520px;
+    border: none;
+    background-color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.landing-page-container button:hover{
+    background-color: #f5f0f0;
+}
+
+
+/* mobile------ */
+
+
+@media (max-width: 480px)  {
+    .landing-page-container h1{
+        font-size: 2rem;
+        margin-top: 8rem;
+        padding: 0 2rem;
+    }
+    .landing-page-container input{
+        width: 75%;
+        margin-top: 2rem;
+    }
+    .landing-page-container button{
+        margin-top: 4rem;
+    }
+}
+
