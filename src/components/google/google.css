@@ -1,0 +1,33 @@
+.google-cont{
+    position: absolute;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.google-cont input{
+    width: 10rem;
+    font-size: 1rem;
+    border-bottom: 2px solid #fff;
+}
+.google-cont button{
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+}
+.google-cont button:hover{
+    background-color: transparent;
+}
+.stack-overflow{
+    left: 22rem;
+    display: flex;
+    align-items: center;
+    
+}
+#icon{
+    margin-bottom: 5rem;
+}

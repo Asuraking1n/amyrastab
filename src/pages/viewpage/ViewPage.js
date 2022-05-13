@@ -4,6 +4,8 @@ import Goal from '../../components/goal/Goal'
 import './viewpage.css'
 import Weather from '../../components/weather/Weather'
 import Quotes from '../../components/quotes/Quotes'
+import { GoogleSearch } from '../../components/google/GoogleSearch'
+import Stackoverflow from '../../components/stackoverflow/Stackoverflow'
 const ViewPage = () => {
     return (
         <>
@@ -13,6 +15,8 @@ const ViewPage = () => {
                 <Goal/>
                 <Weather/>
                 <Quotes/>
+                <GoogleSearch/>
+                <Stackoverflow/>
             </div>
             </div>
         </>
