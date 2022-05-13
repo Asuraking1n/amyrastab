@@ -1,13 +1,22 @@
 {
   "manifest_version": 3,
   "name": "Amayra's Tab",
-  "version": "1.4",
-  "description": "Use amayra instead of boring tabs",
+  "author": "Nishant",
+  "version": "1.0.1",
+  "description": "Use Amayra insted of boring tabs",
   "chrome_url_overrides": {
 		"newtab": "index.html"
 	},
-  "browser_action": {
-    "default_icon": "favicon.ico",
-    "default_title": "Amayra's Tab"
-  }
+  "action": {
+    "default_title": "Amayra's Tab",
+    "default_newtab": "index.html",
+    "default_icon": {
+      "48": "favicon.ico"
+    }
+},
+"permissions":[
+  "storage",
+  "activeTab",
+  "tabs"
+]
 }
