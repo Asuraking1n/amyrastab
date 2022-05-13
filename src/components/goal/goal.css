@@ -1,0 +1,72 @@
+.goal-question-sec{
+    color: #fff;
+    font-size: 2.8rem;
+    margin-top: 1rem;
+}
+
+.userInput{
+    width: 31.25rem;
+	padding: 0.5rem 1rem;
+	margin-bottom: 3rem;
+    letter-spacing: 1px;
+	background-color: transparent;
+	outline: none;
+	border: none;
+    border-bottom: 3px solid #fff;
+	font-size: 2.5rem;
+	color: #fff;
+	text-align: center;
+}
+.mail-goal-sec{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
+.completed{
+    text-decoration: line-through;
+}
+.todo-sec{
+    height: 3rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    flex-direction: row;
+    color: #fff;
+    position: relative;
+}
+.todo-sec input{
+    width: 16px;
+    margin-top: 3rem;
+    height: 16px;
+    background-color: transparent;
+    background-color: blue;
+}
+.mygoal{
+    width: 10rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.btn-cont{
+    margin: 0 .3rem;
+    padding: .5rem;
+    background-color: #00000062;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .greet-user-cont{
+        text-align: center;
+    }
+    .goal-question-sec{
+        text-align: center;
+    }
+}

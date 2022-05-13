@@ -1,0 +1,22 @@
+.time-cont{
+    color: #fff;
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 8rem;
+}
+.greet-user-cont{
+    color: #fff;
+    font-size: 3rem;
+}
+.quotes-sec{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    position: absolute;
+    bottom: 15px;
+}
+@media (max-width: 480px){
+    .time-cont{
+        margin-top: 12rem;
+    }
+}
