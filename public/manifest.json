@@ -13,10 +13,5 @@
     "default_icon": {
       "48": "favicon.ico"
     }
-},
-"permissions":[
-  "storage",
-  "activeTab",
-  "tabs"
-]
+}
 }
