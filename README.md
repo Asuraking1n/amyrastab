@@ -27,7 +27,7 @@
   <p align="center">
     An awesome Google Chrome extension .
     <br />
-    <a href="https://github.com/Asuraking1n/amyrastab"><strong>Explore App »</strong></a>
+    <a href="https://chrome.google.com/webstore/detail/amayras-tab/pngdjolcchamoihdmcboabhpkmmgkcdi"><strong>Explore Extension »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Asuraking1n/amyrastab">View Doc</a>
