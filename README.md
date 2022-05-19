@@ -22,7 +22,7 @@
 ![image](https://user-images.githubusercontent.com/47889284/168411594-50a6ef48-c44f-4e69-aa76-bff78d2a0253.png)
 
 
-  <h3 align="center">ApiDesk</h3>
+  <h3 align="center">Amayra's Tab</h3>
 
   <p align="center">
     An awesome Google Chrome extension .
